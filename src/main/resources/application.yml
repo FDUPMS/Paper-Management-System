@@ -1,0 +1,13 @@
+# 语法是k: v, 相当于k=v
+# 对空格的要求高
+# 可以注入到配置类中
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #url: jdbc:mysql://localhost:3306/pms?serverTimezone=GMT%2b8
+    url: jdbc:mysql://106.15.170.182:13307/pms?serverTimezone=GMT%2b8
+    username: root
+    password: curidemo
